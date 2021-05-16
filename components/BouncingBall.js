@@ -12,7 +12,7 @@ const bounceTransition = {
 
 const BouncingBall = () => {
   return (
-    <div className='w-20 h-20 flex justify-around'>
+    <div className='flex justify-center items-center'>
       <motion.span
         className='block w-12 h-12 bg-yellow-600 rounded-full shadow-md'
         transition={bounceTransition}
